@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nomeJogador"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nomeJogador" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/sexoJogador"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioMasculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/masculino" />
+
+        <RadioButton
+            android:id="@+id/radioFeminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feminino" />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="País"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <CheckBox
+        android:id="@+id/checkBoxTermos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceito os termos de uso" />
+
+
+    <Button
+        android:id="@+id/buttonJogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jogar"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

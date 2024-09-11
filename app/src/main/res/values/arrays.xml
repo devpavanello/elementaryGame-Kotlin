@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Opções para o Spinner (Combobox) -->
+    <string-array name="paises_array">
+        <item>@string/brasil</item>
+        <item>@string/estadosUnidos</item>
+        <item>@string/espanha</item>
+        <item>@string/japao</item>
+    </string-array>
+</resources>

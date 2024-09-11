@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewNomeJogador" type="id" />
+    <item name="textViewSexoJogador" type="id" />
+    <item name="textViewResultado" type="id" />
+    <item name="textViewEscolhas" type="id" />
+    <item name="buttonAgua" type="id" />
+    <item name="buttonFogo" type="id" />
+    <item name="buttonPlanta" type="id" />
+</resources>

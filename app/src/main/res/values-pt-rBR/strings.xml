@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ElementaryGame</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="opcoes">"Opções "</string>
+    <string name="ultimaJogada">Última Jogada</string>
+    <string name="jogadaPlayer">Você</string>
+    <string name="resultado">Resultado</string>
+    <string name="jogadaAndroid">"Android "</string>
+    <string name="nomeJogador">Nome do Jogador</string>
+    <string name="sexoJogador">"Sexo "</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="jogar">"Jogar "</string>
+    <string name="brasil">Brasil</string>
+    <string name="estadosUnidos">Estados Unidos</string>
+    <string name="espanha">Espanha</string>
+    <string name="japao">Japão</string>
+</resources>

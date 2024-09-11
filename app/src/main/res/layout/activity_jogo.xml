@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nome do Jogador -->
+    <TextView
+        android:id="@+id/textViewNomeJogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Nome do Jogador" />
+
+    <!-- Sexo do Jogador -->
+    <TextView
+        android:id="@+id/textViewSexoJogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Sexo do Jogador" />
+
+    <!-- Resultado da Rodada -->
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Resultado da Rodada" />
+
+    <!-- Escolhas da Rodada -->
+    <TextView
+        android:id="@+id/textViewEscolhas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="Escolha do Jogador vs Escolha do Adversário" />
+
+    <!-- Botões para Escolher a Jogada -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/buttonAgua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Água" />
+
+        <Button
+            android:id="@+id/buttonFogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fogo"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/buttonPlanta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Planta" />
+
+    </LinearLayout>
+</LinearLayout>
